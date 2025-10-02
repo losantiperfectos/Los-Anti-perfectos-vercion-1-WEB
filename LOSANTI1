@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Anti-Perfectos Marketing</title>
+  <style>
+    body {
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1a1a1a;
+      color: #f5f5f5;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+      background: linear-gradient(135deg, #ff0033, #6a0dad);
+      color: #fff;
+    }
+
+    header img {
+      width: 160px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #ffe600;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 12px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff0033;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffe600;
+      font-size: 2rem;
+      text-transform: uppercase;
+    }
+
+    .servicios {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .servicio {
+      width: 260px;
+      padding: 25px;
+      margin: 10px;
+      border-radius: 15px;
+      text-align: center;
+      background: #2a2a2a;
+      border: 2px solid #ff0033;
+      box-shadow: 0 0 15px rgba(255,0,51,0.5);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .servicio:hover {
+      transform: scale(1.07);
+      box-shadow: 0 0 25px rgba(255,0,51,0.8);
+    }
+
+    .servicio h3 {
+      color: #ff0033;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    .contacto {
+      text-align: center;
+    }
+
+    .telefono {
+      font-size: 20px;
+      margin: 10px 0;
+      color: #ff0033;
+      font-weight: bold;
+    }
+
+    .contacto p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Diseño sin título (4).jpg" alt="Logo Los Anti-Perfectos Marketing">
+    <h1>Los Anti-Perfectos Marketing</h1>
+    <p>Marketing Digital, Fotografía, Video y Diseño de Marca</p>
+  </header>
+
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="servicio">
+        <h3>Marketing</h3>
+        <p>Estrategias digitales, redes sociales, campañas y posicionamiento online.</p>
+      </div>
+      <div class="servicio">
+        <h3>Fotografía</h3>
+        <p>Producciones profesionales para tu marca, producto o evento.</p>
+      </div>
+      <div class="servicio">
+        <h3>Video</h3>
+        <p>Videos creativos para publicidad, redes y contenido de marca.</p>
+      </div>
+      <div class="servicio">
+        <h3>Diseño de Marca</h3>
+        <p>Identidad visual completa: logotipos, paletas de color, tipografías y manual de marca.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p class="telefono">📞 2804-881731</p>
+    <p class="telefono">📞 2804-213235</p>
+    <p>¡Escribinos y llevá tu marca al siguiente nivel!</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Los Anti-Perfectos Marketing - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
